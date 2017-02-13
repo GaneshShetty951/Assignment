@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         ActionBar.Tab tab1 = actionBar.newTab();
-        tab1.setText("Movies");
+        tab1.setText("User List");
         tab1.setTabListener(this);
 
         ActionBar.Tab tab2 = actionBar.newTab();
-        tab2.setText("Games");
+        tab2.setText("Image Load");
         tab2.setTabListener(this);
 
 
